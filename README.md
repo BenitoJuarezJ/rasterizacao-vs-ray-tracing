@@ -1,57 +1,117 @@
-# Rasterização vs. Ray Tracing
+# Análise Comparativa entre Rasterização e Ray Tracing
 
-## Sobre o projeto
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Pesquisa](https://img.shields.io/badge/modalidade-pesquisa%20bibliográfica-blue)
+![Licença](https://img.shields.io/badge/licença-MIT-green)
 
-Projeto de pesquisa bibliográfica desenvolvido no curso de Ciência da Computação, sob orientação da professora Andreia Ono Sakai.
+## Resumo
 
-O estudo apresenta uma análise comparativa da complexidade assintótica e do desempenho dos algoritmos de renderização gráfica 3D, com ênfase nas técnicas de **rasterização** e **ray tracing**.
+Este projeto apresenta uma análise comparativa da complexidade assintótica, do desempenho computacional e da qualidade visual dos algoritmos de renderização gráfica tridimensional, com ênfase nas técnicas de rasterização e ray tracing.
 
-## Objetivo
+A pesquisa busca relacionar os fundamentos teóricos da complexidade de algoritmos às aplicações práticas da computação gráfica, considerando o equilíbrio entre eficiência computacional e fidelidade visual.
 
-Analisar e comparar o custo computacional, o comportamento matemático, o desempenho e a eficácia visual da rasterização e do ray tracing, relacionando a teoria da complexidade de algoritmos às aplicações práticas de renderização gráfica.
+## Objetivo geral
 
-## Descrição
+Analisar e comparar a rasterização e o ray tracing quanto ao custo computacional, à complexidade algorítmica, ao desempenho e à eficácia visual em aplicações de computação gráfica tridimensional.
 
-A rasterização e o ray tracing são duas abordagens fundamentais para a geração de imagens tridimensionais. A rasterização é amplamente utilizada em aplicações de tempo real por sua eficiência, enquanto o ray tracing busca maior fidelidade visual por meio da simulação do percurso da luz, geralmente com maior custo computacional.
+## Objetivos específicos
 
-Esta pesquisa investiga o equilíbrio entre eficiência computacional e qualidade visual, considerando a evolução das GPUs modernas e a adoção de recursos dedicados ao processamento de ray tracing em áreas como jogos digitais, cinema e visualização computacional.
+- Apresentar os fundamentos teóricos da rasterização e do ray tracing;
+- Identificar as principais etapas computacionais de cada método;
+- Examinar a complexidade e os custos computacionais envolvidos;
+- Comparar o desempenho das técnicas em aplicações gráficas;
+- Analisar as diferenças relacionadas à qualidade visual;
+- Investigar as limitações e possibilidades de utilização em tempo real;
+- Relacionar a evolução das GPUs à adoção do ray tracing em aplicações modernas.
 
-## Integrantes do grupo
+## Tema delimitado
 
-| Integrante | GitHub |
-| --- | --- |
+> Análise comparativa da complexidade assintótica e do desempenho entre os algoritmos de renderização gráfica 3D: rasterização versus ray tracing.
+
+| Delimitação | Descrição |
+|---|---|
+| Área geral | Complexidade de algoritmos e análise de desempenho em computação gráfica 3D |
+| Tema amplo | Complexidade de algoritmos |
+| Tema específico | Comparação do custo computacional e da eficácia visual entre rasterização e ray tracing |
+| Modalidade | Pesquisa bibliográfica e análise comparativa |
+
+## Fundamentação inicial
+
+### Rasterização
+
+A rasterização é uma técnica de renderização que converte objetos tridimensionais em fragmentos e pixels exibidos em uma superfície bidimensional. Por apresentar elevado desempenho, é amplamente utilizada em jogos digitais, simulações e outras aplicações que exigem geração de imagens em tempo real.
+
+Entretanto, determinados efeitos visuais, como sombras, reflexos e iluminação indireta, precisam ser aproximados por meio de técnicas complementares.
+
+### Ray tracing
+
+O ray tracing é uma técnica que simula o percurso dos raios de luz em uma cena virtual. Seu funcionamento permite representar, de maneira mais próxima do comportamento físico da luz, efeitos como reflexos, refrações, sombras e iluminação global.
+
+Apesar da maior fidelidade visual, o método costuma apresentar maior custo computacional, especialmente em cenas complexas e aplicações que exigem renderização em tempo real.
+
+### Comparação inicial
+
+| Critério | Rasterização | Ray Tracing |
+|---|---|---|
+| Princípio de funcionamento | Projeção e conversão de primitivas gráficas em pixels | Simulação do percurso dos raios de luz |
+| Desempenho | Geralmente mais elevado | Geralmente mais exigente |
+| Custo computacional | Comparativamente menor | Comparativamente maior |
+| Qualidade visual | Depende de aproximações e técnicas adicionais | Maior fidelidade na simulação da luz |
+| Uso em tempo real | Amplamente consolidado | Em expansão com o desenvolvimento de hardware especializado |
+| Principais aplicações | Jogos, interfaces gráficas e simulações | Cinema, visualização científica, arquitetura e jogos modernos |
+
+## Justificativa
+
+O tema apresenta relevância acadêmica e mercadológica por abordar o equilíbrio entre eficiência computacional e fidelidade visual, questão central no desenvolvimento de sistemas gráficos.
+
+A transição de modelos baseados predominantemente em rasterização para soluções híbridas ou baseadas em ray tracing acompanha a evolução das unidades de processamento gráfico e a introdução de componentes especializados.
+
+O estudo interessa às áreas de desenvolvimento de jogos, produção cinematográfica, simulação, visualização científica e computação gráfica. No contexto acadêmico, permite relacionar a análise de algoritmos aos desafios práticos da renderização em tempo real.
+
+## Metodologia
+
+O projeto será desenvolvido por meio de uma pesquisa bibliográfica, de natureza exploratória e abordagem qualitativa, acompanhada de análise comparativa.
+
+As principais etapas metodológicas serão:
+
+1. Levantamento de artigos, trabalhos acadêmicos, livros e documentos técnicos;
+2. Estudo dos fundamentos da rasterização e do ray tracing;
+3. Identificação das principais operações executadas por cada técnica;
+4. Análise da complexidade e dos custos computacionais;
+5. Comparação das características de desempenho;
+6. Comparação da qualidade e da eficácia visual;
+7. Sistematização dos resultados encontrados;
+8. Elaboração das considerações finais.
+
+## Integrantes
+
+| Integrante | Perfil no GitHub |
+|---|---|
 | Benito Juarez Jesus Viana Aguiar | [@BenitoJuarezJ](https://github.com/BenitoJuarezJ) |
 | Renan Vears de Andrade | [@renanvras987](https://github.com/renanvras987) |
 | Augusto Domingues da Silva | [@augustodasilvadomingues](https://github.com/augustodasilvadomingues) |
 | Thiago de Luca Fernandes | [@Thiago13721](https://github.com/Thiago13721) |
 
-## Tema delimitado
-
-Análise comparativa da complexidade assintótica e do desempenho entre os algoritmos de renderização gráfica 3D: rasterização versus ray tracing.
-
-## Relevância
-
-O tema é relevante para a academia e para o mercado por abordar o equilíbrio entre eficiência computacional e fidelidade visual. Essa comparação é especialmente importante diante da evolução das GPUs e da crescente utilização de ray tracing em tempo real pela indústria de jogos, filmes e aplicações gráficas.
-
-## Metodologia
-
-A pesquisa será conduzida por meio de revisão bibliográfica e análise comparativa, considerando:
-
-- fundamentos da rasterização e do ray tracing;
-- complexidade e custo computacional das duas abordagens;
-- desempenho em aplicações de computação gráfica 3D;
-- qualidade e eficácia visual dos resultados;
-- limitações e possibilidades de uso em tempo real.
-
-
-## Status do projeto
-
-Projeto em desenvolvimento. Esta versão registra a definição do tema, sua justificativa e as referências bibliográficas iniciais.
-
 ## Informações acadêmicas
 
-- **Curso:** Ciência da Computação
-- **Modalidade:** Projeto de pesquisa bibliográfica
+| Campo | Informação |
+|---|---|
+| Curso | Ciência da Computação |
+| Modalidade | Projeto de pesquisa bibliográfica |
+| Área de estudo | Complexidade de algoritmos e computação gráfica 3D |
+| Orientadora | Andreia Ono Sakai |
+| Branch principal | `main` |
+| Status | Em desenvolvimento |
+
+## Organização do repositório
+
+```text
+.
+├── README.md
+├── LICENSE
+├── referencias/
+├── documentos/
+└── resultados/- **Modalidade:** Projeto de pesquisa bibliográfica
 - **Orientadora:** Andreia Ono Sakai
 - **Branch principal:** `main`
 "referencias/"| Referências e materiais bibliográficos autorizados
