@@ -109,16 +109,22 @@ As principais etapas metodológicas serão:
 .
 ├── README.md
 ├── LICENSE
+├── codigo/ ## ainda não criados
+├── documentacao/
 ├── referencias/
-├── documentos/
-└── resultados/- **Modalidade:** Projeto de pesquisa bibliográfica
+└── resultados/-
+
+
+```
+
+**Modalidade:** Projeto de pesquisa bibliográfica
 - **Orientadora:** Andreia Ono Sakai
 - **Branch principal:** `main`
 "referencias/"| Referências e materiais bibliográficos autorizados
 "documentos/"| Documentos produzidos durante a pesquisa
 "resultados/"| Análises, comparações e resultados obtidos
 
-Referências iniciais
+## Referências iniciais
 
 1. BIKKER, Jacco. Ray Tracing in Real-time Games. 2012. Disponível em: "https://jbikker.github.io/literature/Ray%20Tracing%20in%20Real-time%20Games%20-%202012.pdf" (https://jbikker.github.io/literature/Ray%20Tracing%20in%20Real-time%20Games%20-%202012.pdf).
 
@@ -130,7 +136,8 @@ Referências iniciais
 
 5. UNIVERSIDADE FEDERAL DE SANTA CATARINA. Repositório Institucional. Disponível em: "https://repositorio.ufsc.br/bitstream/handle/123456789/202673/TCC.pdf?sequence=1" (https://repositorio.ufsc.br/bitstream/handle/123456789/202673/TCC.pdf?sequence=1).
 
-Status do projeto
+
+## Status do projeto
 
 O projeto encontra-se em desenvolvimento. A etapa atual contempla:
 
@@ -139,7 +146,7 @@ O projeto encontra-se em desenvolvimento. A etapa atual contempla:
 - [x] Verificação inicial de viabilidade;
 - [x] Levantamento bibliográfico preliminar;
 - [x] Identificação dos integrantes;
-- [ ] Revisão bibliográfica completa;
+- [x] Revisão bibliográfica completa;
 - [ ] Análise da complexidade dos algoritmos;
 - [ ] Comparação dos métodos;
 - [ ] Organização dos resultados;
