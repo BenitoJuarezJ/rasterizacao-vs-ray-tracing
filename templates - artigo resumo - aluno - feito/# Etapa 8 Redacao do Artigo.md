@@ -2,7 +2,11 @@
 
 # Título
 
-Z-buffer e BVH sob alta carga geométrica: uma revisão da literatura sobre complexidade assintótica e custo de memória na renderização em tempo real
+ANÁLISE COMPARATIVA DO CUSTO COMPUTACIONAL E DA
+COMPLEXIDADE ASSINTÓTICA ENTRE A RASTERIZAÇÃO
+TRADICIONAL VIA Z-BUFFER E O RAY TRACING
+ACELERADO POR BOUNDING VOLUME HIERARCHY (BVH)
+EM CENÁRIOS DE ALTA CONTAGEM DE POLÍGONOS
 
 ## Palavras-chave
 
