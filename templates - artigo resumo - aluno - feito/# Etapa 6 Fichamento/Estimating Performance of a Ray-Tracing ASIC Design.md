@@ -3,7 +3,7 @@
 ## Identificação do artigo
 
 - Referência completa: WOOP, Sven; BRUNVAND, Erik; SLUSALLEK, Philipp. Estimating Performance of a Ray-Tracing ASIC Design. In: IEEE SYMPOSIUM ON INTERACTIVE RAY TRACING, 2006, Salt Lake City. **Proceedings** [...]. Salt Lake City: IEEE, 2006. p. 7-14.
-- DOI ou URL: [https://doi.org/10.1109/RT.2006.280209](https://doi.org/10.1109/RT.2006.280209) ([https://hwrt.cs.utah.edu/papers/hwrt_rt06.pdf](https://hwrt.cs.utah.edu/papers/hwrt_rt06.pdf))
+- DOI ou URL: [https://doi.org/10.1109/RT.2006.280209](https://doi.org/10.1109/RT.2006.280209) (https://www.researchgate.net/publication/228767166_Estimating_Performance_of_a_Ray-Tracing_ASIC_Design)
 - Base de origem: IEEE Xplore
 - Leitor responsável: Benito Juarez Jesus Viana Aguiar
 - Data da leitura: 09/10/2026
