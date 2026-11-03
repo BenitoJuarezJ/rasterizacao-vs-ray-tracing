@@ -99,7 +99,7 @@ As principais etapas metodológicas serão:
 | Curso | Ciência da Computação |
 | Modalidade | Projeto de pesquisa bibliográfica |
 | Área de estudo | Complexidade de algoritmos e computação gráfica 3D |
-| Orientadora | Andreia Ono Sakai |
+| Orientadora | Andrea Ono Sakai |
 | Branch principal | `main` |
 | Status | Em desenvolvimento |
 
@@ -118,7 +118,7 @@ As principais etapas metodológicas serão:
 ```
 
 **Modalidade:** Projeto de pesquisa bibliográfica
-- **Orientadora:** Andreia Ono Sakai
+- **Orientadora:** Andrea Ono Sakai
 - **Branch principal:** `main`
 "referencias/"| Referências e materiais bibliográficos autorizados
 "documentos/"| Documentos produzidos durante a pesquisa
