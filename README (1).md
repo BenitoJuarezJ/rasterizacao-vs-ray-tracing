@@ -50,7 +50,7 @@ O projeto será desenvolvido através de pesquisa sistemática (PRISMA) com busc
 | Curso | Ciência da Computação |
 | Modalidade | Projeto de pesquisa bibliográfica |
 | Área de estudo | Computabilidade e Complexidade de Algoritmos |
-| Orientadora | Andreia Ono Sakai |
+| Orientadora | Andrea Ono Sakai |
 | Branch principal | `main` |
 | Status | Em desenvolvimento |
 
