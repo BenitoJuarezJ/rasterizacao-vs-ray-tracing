@@ -82,7 +82,7 @@
 
 **Total de resultados brutos (soma de todas as buscas):** 431
 **Gerenciador de referências utilizado:** Zotero
-**Formato de exportação:** BibTeX
+**Formato de exportação:** .CSV/BibTeX
 
 ---
 
