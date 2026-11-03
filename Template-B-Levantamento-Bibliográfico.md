@@ -37,9 +37,9 @@
 
 | Nº | String de busca | Base(s) em que será usada | Elaborada por |
 |---|---|---|---|
-| 1 | `("Ray tracing" OR "BVH") AND ("Rasterization" OR "Z-buffer") AND ("Complexity" OR "Performance")` | IEEE Xplore, ACM DL, NVIDIA | Renan Veras de Andrade |
-| 2 | `("Real-time rendering") AND ("asymptotic complexity" OR "computational cost") AND ("Ray tracing")` | IEEE Xplore, Scopus, NVIDIA | Renan Veras de Andrade |
-| 3 | `("Bounding Volume Hierarchy" OR "BVH") AND ("Z-buffer" OR "Rasterization") AND "Performance"` | ACM DL, Scopus, NVIDIA | Renan Veras de Andrade |
+| 1 | `("Ray tracing" OR "BVH") AND ("Rasterization" OR "Z-buffer") AND ("Complexity" OR "Performance")` | IEEE Xplore, ACM DL | Renan Veras de Andrade |
+| 2 | `("Real-time rendering") AND ("asymptotic complexity" OR "computational cost") AND ("Ray tracing")` | IEEE Xplore, Scopus| Renan Veras de Andrade |
+| 3 | `("Bounding Volume Hierarchy" OR "BVH") AND ("Z-buffer" OR "Rasterization") AND "Performance"` | ACM DL, Scopus | Renan Veras de Andrade |
 
 ---
 
