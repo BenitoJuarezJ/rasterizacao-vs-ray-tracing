@@ -3,7 +3,7 @@
 ## Identificação do artigo
 
 - Referência completa: RITSCHEL, Tobias; DACHSBACHER, Carsten; GROSCH, Thorsten; KAUTZ, Jan. The State of the Art in Interactive Global Illumination. **Computer Graphics Forum**, v. 31, n. 1, p. 160-188, 2012.
-- DOI ou URL: [https://doi.org/10.1111/j.1467-8659.2012.02093.x](https://doi.org/10.1111/j.1467-8659.2012.02093.x)
+- DOI ou URL: [https://doi.org/10.1111/j.1467-8659.2012.02093.x](https://doi.org/10.1111/j.1467-8659.2012.02093.x) https://www.semanticscholar.org/paper/The-State-of-the-Art-in-Interactive-Global-Ritschel-Dachsbacher/fc442a3076abc2217058b5651c255e1aa54f00b9
 - Base de origem: Eurographics Digital Library
 - Leitor responsável: Renan Veras de Andrade
 - Data da leitura: 08/10/2026
