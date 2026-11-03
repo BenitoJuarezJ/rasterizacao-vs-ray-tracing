@@ -1,4 +1,4 @@
-# Análise Comparativa entre Rasterização e Ray Tracing
+# Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos.
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![Pesquisa](https://img.shields.io/badge/modalidade-pesquisa%20bibliográfica-blue)
@@ -26,7 +26,7 @@ Analisar e comparar a rasterização e o ray tracing quanto ao custo computacion
 
 ## Tema delimitado
 
-> Análise comparativa da complexidade assintótica e do desempenho entre os algoritmos de renderização gráfica 3D: rasterização versus ray tracing.
+>Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos.
 
 | Delimitação | Descrição |
 |---|---|
