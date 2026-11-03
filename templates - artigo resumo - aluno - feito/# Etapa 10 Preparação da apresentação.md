@@ -10,7 +10,7 @@ Prepare uma apresentação clara do artigo e organize a participação do grupo.
 - Evento ou disciplina: Computabilidade e Complexidade de Algoritmos
 - Data: 27/10/2026
 - Tempo disponível: 15 minutos
-- Integrantes: Grupo 8: Benito Juarez Jesus Viana Aguiar, Renan Veras de Andrade, Augusto Domingues da Silva e Thiago de Luca Fernandes
+- Integrantes: Grupo 8: Benito Juarez Jesus Viana Aguiar, Renan Veras de Andrade, Augusto da Silva Domingues e Thiago de Luca Fernandes
 
 ## Estrutura
 
@@ -20,7 +20,7 @@ Prepare uma apresentação clara do artigo e organize a participação do grupo.
 | Objetivos | Pergunta: como a complexidade e a memória divergem entre Z-buffer e BVH quando as primitivas crescem? Objetivo geral: comparar as duas estruturas a partir de 5 estudos. Objetivo específico não atendido plenamente: o ponto de interseção entre as técnicas. | Thiago de Luca Fernandes | 1 min 30 s |
 | Metodologia | Busca em 16/09/2026 (IEEE Xplore, ACM DL, Scopus): 431 resultados, 389 triados, 18 lidos e 5 incluídos (2006 a 2021). Análise qualitativa por eixos; os números dos estudos não são comparados entre si. | Benito Juarez Jesus Viana Aguiar | 2 min |
 | Resultados da revisão | Eixo 1 — Z-buffer (Lambru, Wyman, Ritschel): o custo da matriz depende da resolução e do acesso (Benito, 1 min 45 s). Eixo 2 — Estruturas hierárquicas e achado central (Woop, Crassin, Lambru, Ritschel): consulta mais barata, mas memória, atualização e divergência pesam; os estudos apontam gargalos diferentes (Renan, 3 min 30 s). | Benito Juarez Jesus Viana Aguiar e Renan Veras de Andrade | 5 min 15 s |
-| Conclusão | Não há estrutura vencedora absoluta: o Z-buffer tem acesso regular, mas custo que cresce com a resolução; a BVH reduz o custo de consulta, mas depende de memória, cache e atualização. O ponto de virada não está definido. Próximo passo: experimento em um mesmo hardware, de 1080p a 4K. | Augusto Domingues da Silva | 4 min |
+| Conclusão | Não há estrutura vencedora absoluta: o Z-buffer tem acesso regular, mas custo que cresce com a resolução; a BVH reduz o custo de consulta, mas depende de memória, cache e atualização. O ponto de virada não está definido. Próximo passo: experimento em um mesmo hardware, de 1080p a 4K. | Augusto da Silva Domingues | 4 min |
 
 ## Mensagem principal
 
