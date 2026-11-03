@@ -1,4 +1,4 @@
-# Análise Comparativa do Custo Computacional: Z-Buffer vs BVH (Ray Tracing)
+# Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos.
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![Pesquisa](https://img.shields.io/badge/modalidade-pesquisa%20bibliográfica-blue)
@@ -21,7 +21,7 @@ Analisar comparativamente a complexidade assintótica (Notação Big-O) e o cust
 
 ## Tema delimitado
 
-> Análise comparativa do custo computacional e complexidade assintótica entre os algoritmos Z-buffer (Rasterização) e BVH (Ray Tracing) em simulações e renderização em tempo real.
+> Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos.
 
 | Delimitação | Descrição |
 |---|---|
