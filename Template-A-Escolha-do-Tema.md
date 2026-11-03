@@ -34,7 +34,7 @@ O tema possui alta relevância para a engenharia de software gráfico e otimiza�
 | Critério | Avaliação (Sim/Parcial/Não) | Observação |
 |---|---|---|
 | Tempo disponível é suficiente | Sim | O projeto recorta variáveis subjetivas (qualidade visual) focando estritamente na complexidade teórica. |
-| Há acesso a fontes/dados necessários | Sim | As bases científicas (IEEE Xplore, ACM, NVIDIA) fornecem vasta literatura revisada por pares sobre o tema. |
+| Há acesso a fontes/dados necessários | Sim | As bases científicas (IEEE Xplore, ACM) fornecem vasta literatura revisada por pares sobre o tema. |
 | O grupo já tem domínio mínimo do tema | Sim | O grupo domina os conceitos de renderização, tempo de execução e busca por grafos/árvores na computação. |
 | Recursos técnicos necessários estão disponíveis | Sim | O trabalho é uma pesquisa bibliográfica qualitativa baseada em literatura de referência. |
 
@@ -62,7 +62,7 @@ Ao contrário de comparações generalistas que enfocam fotorealismo, a pesquisa
 - **Evidência da contribuição:** Rascunhos compartilhados em grupo evidenciando o ajuste fino do escopo.
 
 ### Integrante 3 — Benito Juarez Jesus Viana Aguiar
-- **O que fez nesta etapa:** Avaliei a viabilidade de execução do trabalho mediante o tempo restante e acesso às bases de dados ACM, IEEE e NVIDIA.
+- **O que fez nesta etapa:** Avaliei a viabilidade de execução do trabalho mediante o tempo restante e acesso às bases de dados ACM, IEEE.
 - **Tempo dedicado (aprox.):** 6h
 - **Evidência da contribuição:** Levantamento primário da disponibilidade de artigos em plataformas acadêmicas.
 
@@ -77,7 +77,7 @@ Ao contrário de comparações generalistas que enfocam fotorealismo, a pesquisa
 |---|---|---|
 | Thiago de Luca Fernandes | Escopo algorítmico e foco em Z-buffer/BVH | 30% |
 | Renan Veras de Andrade | Ajustes conforme parecer da orientadora | 20% |
-| Benito Juarez Jesus Viana Aguiar | Mapeamento de bases (ACM/IEEE/NVIDIA) e viabilidade | 30% |
+| Benito Juarez Jesus Viana Aguiar | Mapeamento de bases (ACM/IEEE) e viabilidade | 30% |
 | Augusto da Silva Domingues  | Revisão e formatação estrutural do template | 20% |
 
 ## 6. Checklist Final da Etapa
