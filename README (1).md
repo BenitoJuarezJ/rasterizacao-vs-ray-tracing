@@ -58,11 +58,33 @@ O projeto será desenvolvido através de pesquisa sistemática (PRISMA) com busc
 
 ```text
 .
+├── templates - artigo resumo - aluno - feito
+   ├── # Etapa 6 Fichamento
+       ├── Comparative Analysis of Real-Time Global...
+       ├── Estimating Performace of a Ray-Tracing...
+       ├── Frustum-Traced Irregular Z-Buffers Fast, Sub...
+       ├── Interactive Indirect Illumination Using Voxel...
+       ├── The State of the Art in Interactive Global...
+   ├── # Etapa 1 Tema e delimitação.md
+   ├── # Etapa 2 Problema de pesquisa.md
+   ├── # Etapa 3 Objetivo geral e bjetivos esp.md
+   ├── # Etapa 4 Planejamento da busca bibliogr.md
+   ├── # Etapa 5 Busca e triagem dos artigos.md
+   ├── # Etapa 7 Matriz de síntese e organização.md
+   ├── # Etapa 8 Redação do Artigo.md
+   ├── # Etapa 9 Normalização e revisão final.md
+   ├── # Etapa 10 Preparação da apresentação.md
+   ├── # 10_apresentação_GRUPO8_FINAL.pptx
+   ├── 00_LEIA-ME.md
+   ├── RESUMO_FINAL_GRUPO_8_ATUALIZADO.docx
+├──Artigos.zip
 ├── a_Escolha_do_Tema.md
 ├── b_Levantamento_Bibliografico_Preliminar.md
 ├── c_objetivo_geral_e_especificos.md
 ├── README.md
+├── README(1).md
 ├── LICENSE
-├── documentacao/
-├── referencias/
-└── resultados/
+├── documentacao.zip
+├── triagem_final_zotero.csv
+├── triagem_final_zotero.xlsx
+
