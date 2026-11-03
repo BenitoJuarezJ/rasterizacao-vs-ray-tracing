@@ -89,7 +89,7 @@ As principais etapas metodológicas serão:
 |---|---|
 | Benito Juarez Jesus Viana Aguiar | [@BenitoJuarezJ](https://github.com/BenitoJuarezJ) |
 | Renan Vears de Andrade | [@renanvras987](https://github.com/renanvras987) |
-| Augusto Domingues da Silva | [@augustodasilvadomingues](https://github.com/augustodasilvadomingues) |
+| Augusto da Silva Domingues | [@augustodasilvadomingues](https://github.com/augustodasilvadomingues) |
 | Thiago de Luca Fernandes | [@Thiago13721](https://github.com/Thiago13721) |
 
 ## Informações acadêmicas
