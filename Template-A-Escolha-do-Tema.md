@@ -22,7 +22,7 @@ Complexidade de algoritmos, uso de estruturas de dados e análise de desempenho 
 
 | Tema amplo (ponto de partida) | Tema delimitado (ponto de chegada) |
 |---|---|
-| Complexidade de algoritmos | Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização (Z-buffer) e o Ray Tracing (BVH). |
+| Complexidade de algoritmos | Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos. |
 
 ## 3. Justificativa da Escolha
 
