@@ -3,7 +3,7 @@
 ## Identificação do artigo
 
 - Referência completa: CRASSIN, Cyril; NEYRET, Fabrice; SAINZ, Miguel; GREEN, Simon; EISEMANN, Elmar. Interactive Indirect Illumination Using Voxel Cone Tracing. **Computer Graphics Forum**, v. 30, n. 7, p. 1921-1930, 2011.
-- DOI ou URL: [https://doi.org/10.1111/j.1467-8659.2011.02063.x] , https://research.nvidia.com/publication/2011-09_interactive-indirect-illumination-using-voxel-cone-tracing?utm_source=gemini
+- DOI ou URL: (https://doi.org/10.1111/j.1467-8659.2011.02063.x) , (https://research.nvidia.com/publication/2011-09_interactive-indirect-illumination-using-voxel-cone-tracing?utm_source=gemini)
 - Base de origem: Wiley Online Library / Eurographics Digital Library
 - Leitor responsável: Benito Juarez Jesus Viana Aguiar
 - Data da leitura: 09/10/2026
