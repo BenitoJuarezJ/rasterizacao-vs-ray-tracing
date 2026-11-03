@@ -12,7 +12,7 @@
 | Orientador(a) | Andrea Ono Sakai |
 | Data de entrega desta etapa | 20/09/2026 |
 | Integrantes do grupo | Benito Juarez Jesus Viana Aguiar, Renan Veras de Andrade, Augusto da Silva Domingues , Thiago de Luca Fernandes |
-| Tema (da etapa "a") | Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização (Z-buffer) e o Ray Tracing (BVH) em cenários de alta contagem de polígonos. |
+| Tema (da etapa "a") | Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos. |
 
 ## PARTE 1 — DEFINIR O OBJETIVO GERAL
 
@@ -20,7 +20,7 @@
 
 **Pergunta:** Qual foi o tema específico que o grupo definiu?
 
-> Resposta: Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH).
+> Resposta: Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos.
 
 ### 1.2 Passo a passo para chegar ao objetivo geral
 
