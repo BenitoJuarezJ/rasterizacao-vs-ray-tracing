@@ -3,7 +3,7 @@
 ## Identificação do artigo
 
 - Referência completa: LAMBRU, C.; MORAR, A.; MOLDOVEANU, F.; ASAVEI, V.; MOLDOVEANU, A. Comparative Analysis of Real-Time Global Illumination Techniques in Current Game Engines. **IEEE Access**, v. 9, p. 125158-125183, 2021.
-- DOI ou URL: [https://doi.org/10.1109/ACCESS.2021.3109663](https://doi.org/10.1109/ACCESS.2021.3109663) ([https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9527241](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9527241))
+- DOI ou URL: (https://doi.org/10.1109/ACCESS.2021.3109663) , (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9527241)
 - Base de origem: IEEE Xplore
 - Leitor responsável: Augusto da Silva Domingues 
 - Data da leitura: 09/10/2026
