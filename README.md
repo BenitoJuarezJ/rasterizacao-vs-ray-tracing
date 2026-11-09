@@ -1,165 +1,89 @@
-# Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos.
+# Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 ![Pesquisa](https://img.shields.io/badge/modalidade-pesquisa%20bibliográfica-blue)
 ![Licença](https://img.shields.io/badge/licença-MIT-green)
 
 ## Resumo
 
-Este projeto apresenta uma análise comparativa da complexidade assintótica, do desempenho computacional e da qualidade visual dos algoritmos de renderização gráfica tridimensional, com ênfase nas técnicas de rasterização e ray tracing.
-
-A pesquisa busca relacionar os fundamentos teóricos da complexidade de algoritmos às aplicações práticas da computação gráfica, considerando o equilíbrio entre eficiência computacional e fidelidade visual.
+Este projeto apresenta uma análise comparativa da complexidade assintótica e do custo computacional e de memória envolvendo as duas principais estruturas de dados utilizadas na renderização gráfica em tempo real: matrizes bidimensionais de profundidade para rasterização (Z-buffer) e hierarquias de volumes de delimitação para Ray Tracing (*Bounding Volume Hierarchy* - BVH). A pesquisa isola parâmetros subjetivos de estética visual e fotorrealismo para aprofundar-se estritamente na fundamentação algorítmica e arquitetural do gerenciamento de recursos perante o aumento exponencial de primitivas geométricas.
 
 ## Objetivo geral
 
-Analisar e comparar a rasterização e o ray tracing quanto ao custo computacional, à complexidade algorítmica, ao desempenho e à eficácia visual em aplicações de computação gráfica tridimensional.
+Analisar comparativamente a complexidade assintótica (notação Big-O) e o custo estrutural de memória (*footprint*) associados à varredura matricial no Z-buffer versus o particionamento espacial e interseções logarítmicas em estruturas hierárquicas BVH sob estresse geométrico.
 
 ## Objetivos específicos
 
-- Apresentar os fundamentos teóricos da rasterização e do ray tracing;
-- Identificar as principais etapas computacionais de cada método;
-- Examinar a complexidade e os custos computacionais envolvidos;
-- Comparar o desempenho das técnicas em aplicações gráficas;
-- Analisar as diferenças relacionadas à qualidade visual;
-- Investigar as limitações e possibilidades de utilização em tempo real;
-- Relacionar a evolução das GPUs à adoção do ray tracing em aplicações modernas.
+- Conceituar e modelar matematicamente a Rasterização (Z-buffer) e o Ray Tracing (BVH) em termos de algoritmos e estruturas de dados;
+- Examinar a complexidade assintótica ($O(N)$ vs. $O(\log N)$) e os custos de processamento envolvidos;
+- Isolar a análise em métricas de processamento, cache e acesso à memória (evitando comparações estéticas subjetivas);
+- Investigar os gargalos impostos pela memória de vídeo (VRAM), cache de texturas (TMU), contenção atômica e divergência de execução nas GPUs.
 
 ## Tema delimitado
 
->Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos.
+> Análise comparativa do custo computacional e da complexidade assintótica entre a rasterização tradicional via Z-buffer e o Ray Tracing acelerado por Bounding Volume Hierarchy (BVH) em cenários de alta contagem de polígonos.
 
 | Delimitação | Descrição |
 |---|---|
-| Área geral | Complexidade de algoritmos e análise de desempenho em computação gráfica 3D |
-| Tema amplo | Complexidade de algoritmos |
-| Tema específico | Comparação do custo computacional e da eficácia visual entre rasterização e ray tracing |
-| Modalidade | Pesquisa bibliográfica e análise comparativa |
-
-## Fundamentação inicial
-
-### Rasterização
-
-A rasterização é uma técnica de renderização que converte objetos tridimensionais em fragmentos e pixels exibidos em uma superfície bidimensional. Por apresentar elevado desempenho, é amplamente utilizada em jogos digitais, simulações e outras aplicações que exigem geração de imagens em tempo real.
-
-Entretanto, determinados efeitos visuais, como sombras, reflexos e iluminação indireta, precisam ser aproximados por meio de técnicas complementares.
-
-### Ray tracing
-
-O ray tracing é uma técnica que simula o percurso dos raios de luz em uma cena virtual. Seu funcionamento permite representar, de maneira mais próxima do comportamento físico da luz, efeitos como reflexos, refrações, sombras e iluminação global.
-
-Apesar da maior fidelidade visual, o método costuma apresentar maior custo computacional, especialmente em cenas complexas e aplicações que exigem renderização em tempo real.
-
-### Comparação inicial
-
-| Critério | Rasterização | Ray Tracing |
-|---|---|---|
-| Princípio de funcionamento | Projeção e conversão de primitivas gráficas em pixels | Simulação do percurso dos raios de luz |
-| Desempenho | Geralmente mais elevado | Geralmente mais exigente |
-| Custo computacional | Comparativamente menor | Comparativamente maior |
-| Qualidade visual | Depende de aproximações e técnicas adicionais | Maior fidelidade na simulação da luz |
-| Uso em tempo real | Amplamente consolidado | Em expansão com o desenvolvimento de hardware especializado |
-| Principais aplicações | Jogos, interfaces gráficas e simulações | Cinema, visualização científica, arquitetura e jogos modernos |
-
-## Justificativa
-
-O tema apresenta relevância acadêmica e mercadológica por abordar o equilíbrio entre eficiência computacional e fidelidade visual, questão central no desenvolvimento de sistemas gráficos.
-
-A transição de modelos baseados predominantemente em rasterização para soluções híbridas ou baseadas em ray tracing acompanha a evolução das unidades de processamento gráfico e a introdução de componentes especializados.
-
-O estudo interessa às áreas de desenvolvimento de jogos, produção cinematográfica, simulação, visualização científica e computação gráfica. No contexto acadêmico, permite relacionar a análise de algoritmos aos desafios práticos da renderização em tempo real.
+| Área geral | Complexidade de algoritmos e desempenho de estruturas de dados em computação gráfica 3D |
+| Tema amplo | Complexidade e Estruturas de Dados na Computação Gráfica |
+| Tema específico | Comparação da complexidade espacial e temporal entre rasterização (Z-buffer) e Ray Tracing (BVH) |
+| Modalidade | Pesquisa bibliográfica qualitativa e comparativa baseada em artigos científicos revisados por pares |
 
 ## Metodologia
 
-O projeto será desenvolvido por meio de uma pesquisa bibliográfica, de natureza exploratória e abordagem qualitativa, acompanhada de análise comparativa.
-
-As principais etapas metodológicas serão:
-
-1. Levantamento de artigos, trabalhos acadêmicos, livros e documentos técnicos;
-2. Estudo dos fundamentos da rasterização e do ray tracing;
-3. Identificação das principais operações executadas por cada técnica;
-4. Análise da complexidade e dos custos computacionais;
-5. Comparação das características de desempenho;
-6. Comparação da qualidade e da eficácia visual;
-7. Sistematização dos resultados encontrados;
-8. Elaboração das considerações finais.
+O projeto foi desenvolvido por meio de uma revisão bibliográfica qualitativa e comparativa com busca estruturada (fluxo PRISMA) nas bases **IEEE Xplore**, **ACM Digital Library** e **Scopus** (executada em 16/09/2026). A partir de 431 registros iniciais, removeram-se 42 duplicatas e triaram-se 389 estudos no gerenciador Zotero, selecionando-se 18 artigos para leitura integral e aprovando-se um corpus definitivo de 5 estudos fundamentais auditados integralmente.
 
 ## Integrantes
 
 | Integrante | Perfil no GitHub |
 |---|---|
+| Augusto Domingues da Silva | [@augustodasilvadomingues](https://github.com/augustodasilvadomingues) |
 | Benito Juarez Jesus Viana Aguiar | [@BenitoJuarezJ](https://github.com/BenitoJuarezJ) |
-| Renan Vears de Andrade | [@renanvras987](https://github.com/renanvras987) |
-| Augusto da Silva Domingues | [@augustodasilvadomingues](https://github.com/augustodasilvadomingues) |
+| Renan Veras de Andrade | [@renanvras987](https://github.com/renanvras987) |
 | Thiago de Luca Fernandes | [@Thiago13721](https://github.com/Thiago13721) |
 
 ## Informações acadêmicas
 
 | Campo | Informação |
 |---|---|
+| Instituição | Centro Universitário Braz Cubas |
 | Curso | Ciência da Computação |
+| Disciplina / Área | Computabilidade e Complexidade de Algoritmos |
 | Modalidade | Projeto de pesquisa bibliográfica |
-| Área de estudo | Complexidade de algoritmos e computação gráfica 3D |
-| Orientadora | Andrea Ono Sakai |
+| Orientadora | Profa. Andrea Ono Sakai |
 | Branch principal | `main` |
-| Status | Em desenvolvimento |
+| Status | Concluído |
 
 ## Organização do repositório
 
 ```text
 .
-├── README.md
+├── templates - artigo resumo - aluno - feito/
+│   ├── # Etapa 6 Fichamento/
+│   │   ├── Comparative Analysis of Real-Time Global...
+│   │   ├── Estimating Performance of a Ray-Tracing...
+│   │   ├── Frustum-Traced Irregular Z-Buffers Fast, Sub...
+│   │   ├── Interactive Indirect Illumination Using Voxel...
+│   │   └── The State of the Art in Interactive Global...
+│   ├── # Etapa 1 Tema e delimitação.md
+│   ├── # Etapa 2 Problema de pesquisa.md
+│   ├── # Etapa 3 Objetivo geral e objetivos esp.md
+│   ├── # Etapa 4 Planejamento da busca bibliogr.md
+│   ├── # Etapa 5 Busca e triagem dos artigos.md
+│   ├── # Etapa 7 Matriz de síntese e organização.md
+│   ├── # Etapa 8 Redação do Artigo.md
+│   ├── # Etapa 9 Normalização e revisão final.md
+│   ├── # Etapa 10 Preparação da apresentação.md
+│   ├── # 10_apresentacao_GRUPO8_FINAL.pptx
+│   ├── 00_LEIA-ME.md
+│   └── RESUMO_FINAL_GRUPO_8.docx
+├── Artigos.zip
+├── documentacao.zip
+├── a_Escolha_do_Tema.md
+├── b_Levantamento_Bibliografico_Preliminar.md
+├── c_objetivo_geral_e_especificos.md
+├── triagem_final_zotero.csv
+├── triagem_final_zotero.xlsx
 ├── LICENSE
-├── codigo/ ## ainda não criados
-├── documentacao/
-├── referencias/
-└── resultados/-
-
-
-```
-
-**Modalidade:** Projeto de pesquisa bibliográfica
-- **Orientadora:** Andrea Ono Sakai
-- **Branch principal:** `main`
-"referencias/"| Referências e materiais bibliográficos autorizados
-"documentos/"| Documentos produzidos durante a pesquisa
-"resultados/"| Análises, comparações e resultados obtidos
-
-## Referências iniciais
-
-1. BIKKER, Jacco. Ray Tracing in Real-time Games. 2012. Disponível em: "https://jbikker.github.io/literature/Ray%20Tracing%20in%20Real-time%20Games%20-%202012.pdf" (https://jbikker.github.io/literature/Ray%20Tracing%20in%20Real-time%20Games%20-%202012.pdf).
-
-2. UNIVERSIDADE FEDERAL DE UBERLÂNDIA. Repositório Institucional. Disponível em: "https://repositorio.ufu.br/handle/123456789/49252" (https://repositorio.ufu.br/handle/123456789/49252).
-
-3. Custo e Fotorrealismo: análise. Artigo acadêmico. Disponível em: "https://share.google/P6pUni1OqHWQGSmEZ" (https://share.google/P6pUni1OqHWQGSmEZ).
-
-4. UNIVERSIDADE FEDERAL DE PERNAMBUCO. Repositório Institucional. Disponível em: "https://repositorio.ufpe.br/bitstream/123456789/2746/1/arquivo6997_1.pdf" (https://repositorio.ufpe.br/bitstream/123456789/2746/1/arquivo6997_1.pdf).
-
-5. UNIVERSIDADE FEDERAL DE SANTA CATARINA. Repositório Institucional. Disponível em: "https://repositorio.ufsc.br/bitstream/handle/123456789/202673/TCC.pdf?sequence=1" (https://repositorio.ufsc.br/bitstream/handle/123456789/202673/TCC.pdf?sequence=1).
-
-
-## Status do projeto
-
-O projeto encontra-se em desenvolvimento. A etapa atual contempla:
-
-- [x] Escolha e delimitação do tema;
-- [x] Elaboração da justificativa;
-- [x] Verificação inicial de viabilidade;
-- [x] Levantamento bibliográfico preliminar;
-- [x] Identificação dos integrantes;
-- [x] Revisão bibliográfica completa;
-- [ ] Análise da complexidade dos algoritmos;
-- [ ] Comparação dos métodos;
-- [ ] Organização dos resultados;
-- [ ] Elaboração das considerações finais.
-
-Licença
-
-Este projeto está licenciado sob os termos da MIT License.
-
-A licença permite o uso, a cópia, a modificação, a distribuição e a publicação deste material, desde que o aviso de direitos autorais e o texto da licença sejam preservados.
-
-Para mais informações, consulte o arquivo ""LICENSE"" (LICENSE).
-
----
-
-Projeto desenvolvido para fins acadêmicos no curso de Ciência da Computação.
+└── README.md
