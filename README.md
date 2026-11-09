@@ -38,7 +38,7 @@ O projeto foi desenvolvido por meio de uma revisão bibliográfica qualitativa e
 
 | Integrante | Perfil no GitHub |
 |---|---|
-| Augusto Domingues da Silva | [@augustodasilvadomingues](https://github.com/augustodasilvadomingues) |
+| Augusto da Silva Domingues | [@augustodasilvadomingues](https://github.com/augustodasilvadomingues) |
 | Benito Juarez Jesus Viana Aguiar | [@BenitoJuarezJ](https://github.com/BenitoJuarezJ) |
 | Renan Veras de Andrade | [@renanvras987](https://github.com/renanvras987) |
 | Thiago de Luca Fernandes | [@Thiago13721](https://github.com/Thiago13721) |
